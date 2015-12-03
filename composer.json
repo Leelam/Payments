@@ -1,0 +1,23 @@
+{
+    "name": "leelam/payments",
+    "description": "PayU, Payment gateway for Laravel, Working with Laravel 5.3.0 - dev",
+    "keywords": ["laravel", "Package", "PayU", "Payment gateway", "leelam"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gopal Krishna Mosali",
+            "email": "krishna@leelam.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Leelam\\Payments\\": "src/"
+        },
+        "files": [
+            "src/Http/helpers.php"
+        ]
+    },
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
